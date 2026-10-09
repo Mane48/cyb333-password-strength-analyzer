@@ -1,0 +1,216 @@
+[
+  {
+    "password_length": 6,
+    "score": 0,
+    "rating": "Very Weak",
+    "entropy_bits": 19.93,
+    "charset_size": 10,
+    "checks": {
+      "min_length_8": false,
+      "min_length_12": false,
+      "has_lowercase": false,
+      "has_uppercase": false,
+      "has_digit": true,
+      "has_symbol": false,
+      "not_common_password": false,
+      "no_obvious_patterns": false
+    },
+    "issues": [
+      "Uses fewer than three character classes.",
+      "Password appears in the built-in common-password list.",
+      "Contains an obvious alphabetic or numeric sequence.",
+      "Password is digits-only."
+    ],
+    "suggestions": [
+      "Mix uppercase, lowercase, digits, and symbols (or use a long passphrase).",
+      "Avoid well-known passwords; generate a unique secret.",
+      "Avoid sequences, keyboard walks, years, and repeated runs.",
+      "Prefer a long random password or a 4+ word passphrase."
+    ],
+    "found_in_common_list": true,
+    "password_preview": ""
+  },
+  {
+    "password_length": 8,
+    "score": 0,
+    "rating": "Very Weak",
+    "entropy_bits": 37.6,
+    "charset_size": 26,
+    "checks": {
+      "min_length_8": true,
+      "min_length_12": false,
+      "has_lowercase": true,
+      "has_uppercase": false,
+      "has_digit": false,
+      "has_symbol": false,
+      "not_common_password": false,
+      "no_obvious_patterns": false
+    },
+    "issues": [
+      "Uses fewer than three character classes.",
+      "Password appears in the built-in common-password list.",
+      "Password is letters-only (no digits or symbols)."
+    ],
+    "suggestions": [
+      "Mix uppercase, lowercase, digits, and symbols (or use a long passphrase).",
+      "Avoid well-known passwords; generate a unique secret.",
+      "Avoid sequences, keyboard walks, years, and repeated runs.",
+      "Prefer a long random password or a 4+ word passphrase."
+    ],
+    "found_in_common_list": true,
+    "password_preview": ""
+  },
+  {
+    "password_length": 6,
+    "score": 0,
+    "rating": "Very Weak",
+    "entropy_bits": 28.2,
+    "charset_size": 26,
+    "checks": {
+      "min_length_8": false,
+      "min_length_12": false,
+      "has_lowercase": true,
+      "has_uppercase": false,
+      "has_digit": false,
+      "has_symbol": false,
+      "not_common_password": false,
+      "no_obvious_patterns": false
+    },
+    "issues": [
+      "Uses fewer than three character classes.",
+      "Password appears in the built-in common-password list.",
+      "Contains a keyboard pattern (qwerty).",
+      "Password is letters-only (no digits or symbols)."
+    ],
+    "suggestions": [
+      "Mix uppercase, lowercase, digits, and symbols (or use a long passphrase).",
+      "Avoid well-known passwords; generate a unique secret.",
+      "Avoid sequences, keyboard walks, years, and repeated runs.",
+      "Prefer a long random password or a 4+ word passphrase."
+    ],
+    "found_in_common_list": true,
+    "password_preview": ""
+  },
+  {
+    "password_length": 9,
+    "score": 3,
+    "rating": "Very Weak",
+    "entropy_bits": 53.59,
+    "charset_size": 62,
+    "checks": {
+      "min_length_8": true,
+      "min_length_12": false,
+      "has_lowercase": true,
+      "has_uppercase": true,
+      "has_digit": true,
+      "has_symbol": false,
+      "not_common_password": false,
+      "no_obvious_patterns": true
+    },
+    "issues": [
+      "Password appears in the built-in common-password list."
+    ],
+    "suggestions": [
+      "Avoid well-known passwords; generate a unique secret.",
+      "Prefer a long random password or a 4+ word passphrase."
+    ],
+    "found_in_common_list": true,
+    "password_preview": ""
+  },
+  {
+    "password_length": 11,
+    "score": 58,
+    "rating": "Fair",
+    "entropy_bits": 72.1,
+    "charset_size": 94,
+    "checks": {
+      "min_length_8": true,
+      "min_length_12": false,
+      "has_lowercase": true,
+      "has_uppercase": true,
+      "has_digit": true,
+      "has_symbol": true,
+      "not_common_password": true,
+      "no_obvious_patterns": false
+    },
+    "issues": [
+      "Contains a 4-digit year-like number."
+    ],
+    "suggestions": [
+      "Avoid sequences, keyboard walks, years, and repeated runs.",
+      "Prefer a long random password or a 4+ word passphrase."
+    ],
+    "found_in_common_list": false,
+    "password_preview": ""
+  },
+  {
+    "password_length": 11,
+    "score": 63,
+    "rating": "Strong",
+    "entropy_bits": 72.1,
+    "charset_size": 94,
+    "checks": {
+      "min_length_8": true,
+      "min_length_12": false,
+      "has_lowercase": true,
+      "has_uppercase": true,
+      "has_digit": true,
+      "has_symbol": true,
+      "not_common_password": true,
+      "no_obvious_patterns": true
+    },
+    "issues": [],
+    "suggestions": [],
+    "found_in_common_list": false,
+    "password_preview": ""
+  },
+  {
+    "password_length": 28,
+    "score": 72,
+    "rating": "Strong",
+    "entropy_bits": 133.14,
+    "charset_size": 27,
+    "checks": {
+      "min_length_8": true,
+      "min_length_12": true,
+      "has_lowercase": true,
+      "has_uppercase": false,
+      "has_digit": false,
+      "has_symbol": false,
+      "not_common_password": true,
+      "no_obvious_patterns": true
+    },
+    "issues": [
+      "Uses fewer than three character classes."
+    ],
+    "suggestions": [
+      "Mix uppercase, lowercase, digits, and symbols (or use a long passphrase).",
+      "Good passphrase structure detected \u2014 keep it long and uncommon."
+    ],
+    "found_in_common_list": false,
+    "password_preview": ""
+  },
+  {
+    "password_length": 16,
+    "score": 83,
+    "rating": "Very Strong",
+    "entropy_bits": 104.87,
+    "charset_size": 94,
+    "checks": {
+      "min_length_8": true,
+      "min_length_12": true,
+      "has_lowercase": true,
+      "has_uppercase": true,
+      "has_digit": true,
+      "has_symbol": true,
+      "not_common_password": true,
+      "no_obvious_patterns": true
+    },
+    "issues": [],
+    "suggestions": [
+      "Looks solid. Store it in a password manager; never reuse it."
+    ],
+    "found_in_common_list": false,
+    "password_preview": ""
+  }
+]
