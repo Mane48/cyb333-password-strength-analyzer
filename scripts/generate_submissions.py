@@ -10,6 +10,7 @@ from docx.shared import Pt
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "submissions"
 LAST = "SanchezSalazar"
+GITHUB_URL = "https://github.com/Mane48/cyb333-password-strength-analyzer"
 
 
 def _set_body_style(doc: Document) -> None:
@@ -154,8 +155,7 @@ def write_update() -> Path:
             "• Wrote unit tests and generated demo batch inputs under samples/.",
             "• Prepared proposal and update submission drafts under submissions/.",
             "",
-            "GitHub repository: [PASTE PUBLIC REPO URL HERE AFTER PUSH]",
-            "Note: Repository has been initialized locally and is ready to publish; link will be added as soon as the remote is created.",
+            f"GitHub repository (public): {GITHUB_URL}",
         ],
     )
 
@@ -210,7 +210,7 @@ def write_final_report() -> Path:
             "Student: Emmanuel Sanchez Salazar",
             "Course: CYB333 Security Automation",
             "Filename target: CYB_333_Project_SanchezSalazar.docx",
-            "GitHub repository: [PASTE PUBLIC REPO URL HERE]",
+            f"GitHub repository: {GITHUB_URL}",
         ],
     )
 
